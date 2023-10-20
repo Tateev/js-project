@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: bisque;
+    background-color: rgb(98, 90, 167);
 }
 
 .image{
@@ -40,23 +40,23 @@ body{
     position: relative;
   }
   
-.button{
-  background-color: rgb(27, 117, 27);  
+.link-to_logpage{
+  background-color: rgb(76, 148, 76);
   color: white;
-  width: 80px;
+  width: 120px;
   height: 30px;
-  margin: 1em;
+  margin: 5px;
   margin-bottom: 1em;
   background-position: center;
   border-radius: 50px;
 }
 
-.button-2{
-    background-color: rgb(27, 117, 27);
+.link-to_signpage{
+    background-color: rgb(76, 148, 76);
     color:white;
-    width: 80px;
+    width: 120px;
     height: 30px;
-    margin: 1em;
+    margin: 5px;
     margin-bottom: 1em;
     background-position: center;
     border-radius: 50px;
@@ -65,15 +65,18 @@ body{
 .create-account{
     width: 240px;
     height: 30px;
-    background-color: green;
+    background-color: rgb(102, 180, 102);
     background-position: center;
 }
+.speech2{
+  margin: 1px;
+}
 
-.button:hover {
+.link-to_logpage:hover {
     background-color: rgb(8, 56, 8);
   }
 
-.button-2:hover {
+.link-to_signpage:hover {
     background-color: rgb(8, 56, 8);
   }
 

@@ -1,22 +1,21 @@
-.container{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 50, 0.8), (rgba(0, 0, 50, 0.8)));
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .form-box {
-  width: 90;
+  width: 90%;
   max-width: 450px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  padding: 50px, 60px, 70px;
+  padding: 50px 60px 70px; 
   text-align: center;
 }
 
@@ -41,22 +40,56 @@
 
 .input-field {
   background: #eaeaea;
-  margin: 15px;
+  margin: 15px 0; 
+  border-radius: 3px;
   display: flex;
   align-items: center;
 }
 
-.button {
+.btn {
   border-radius: 30px;
   align-items: center;
-  margin-bottom: 60px;
+  margin: 30px;
+  height: 40px;
+  width: 110px;
+  background-color: rgb(54, 163, 54);
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  transform: translate(-50%, -50%);
 }
 
-.input{
-  width: auto;
-  background: transparent;
+input {
+  width: 100%;
+  background: scroll;
   border: 0;
   outline: 0;
-  padding: 18px, 15px;
+  padding: 18px 0; 
+}
+.input-group{
+  background-position: center;
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 50px 60px 70px; 
+  text-align: center;
 
 }
+.btn:hover {
+  background-color: rgb(10, 49, 10);
+}
+
+
+/* form p {
+  text-align: left;
+  font-size: 13px;
+}
+form p a{
+  text-decoration: none;
+  color: #3c00a0;
+}  */
+
