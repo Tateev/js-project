@@ -1,0 +1,21 @@
+.form-box {
+    width: 200px;
+    height: 200px;
+    max-width: 600px;
+    position: absolute;
+    background: #dab3b3;
+    padding: 60px 60px 70px; 
+    text-align: center;
+    background-position: center;
+    top: 30%;
+    left: 40%;
+  }
+  
+  .input-field {
+    background: #eaeaea;
+    margin: 15px 0; 
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+
