@@ -1,37 +1,22 @@
-// const buttons = document.querySelector("linkToAnotherPage");
-
-// const handleClick = () =>{
-//     console.log('click');
-// }
-
-//      buttons.forEach(button => {
-//         button.addEventListener('click', handleClick);
-//         console.log('already clicked');
-//     })
-
-// const button = document.getElementById('linkToAnotherPage');
-
-// button.addEventListener('linkToAnotherPage', function() {
-//     window.location.href = 'auth.html';
-// });
+const signbtn = document.querySelectorAll(".link-to_signpage");
+const logbtn = document.querySelectorAll(".link-to_logpage");
 
 
-//  window.location.href = "signup.html";
-
-const logbtn = document.querySelector(".link-to_logpage");
-const signbtn = document.querySelector(".link-to_signpage");
-
-function createYourAccount(e){
+signbtn.forEach(el =>{
+  el.addEventListener('click', function(e){
     e.preventDefault();
-  window.location.href = 'login.html';
-}
-  function welcomeBack(e) {
+  window.location.href = 'signup.html?type="signup"';
+  })
+})
+logbtn.forEach(el =>{
+  el.addEventListener('click', function(e){
     e.preventDefault();
-  window.location.href = 'signup.html';
-   
-}
+  window.location.href = 'signup.html?type="login"';
+  })
+})
 
-logbtn.addEventListener("click", welcomeBack);
-signbtn.addEventListener("click", createYourAccount);
+let logbttn = document.getElementById('logbttn');
+let signbttn = document.getElementById('signbttn');
+
 
 

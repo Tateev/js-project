@@ -41,43 +41,74 @@ body{
   }
   
 .link-to_logpage{
-  background-color: rgb(76, 148, 76);
+  background-color: rgb(87, 116, 219);
   color: white;
   width: 120px;
   height: 30px;
   margin: 5px;
   margin-bottom: 1em;
   background-position: center;
-  border-radius: 50px;
+  position: absolute;
+  border-radius: 20%;
+  top: 50%;
+  left: 45%;
+  transform: translate(-30%, -90%);
+  
 }
 
 .link-to_signpage{
-    background-color: rgb(76, 148, 76);
+    background-color: rgb(87, 116, 219);
     color:white;
     width: 120px;
     height: 30px;
     margin: 5px;
     margin-bottom: 1em;
     background-position: center;
-    border-radius: 50px;
+    position: absolute;
+    border-radius: 20%;
+    top: 50%;
+    left: 52%;
+    transform: translate(-30%, -90%);
 }
 
 .create-account{
     width: 240px;
     height: 30px;
-    background-color: rgb(102, 180, 102);
+    background-color: rgb(131, 96, 226);
     background-position: center;
 }
+
 .speech2{
-  margin: 1px;
+  color: aliceblue;
+  margin: 0;
+  background-position: center;
+  font-size: 20px;
+  text-align: center;
+  top: 60%;
+  left: 20%;
+  transform: translate(-2%, 90%);
+
+}
+.seccontainer{
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  top: 50%;
+  background-position: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+
+
 }
 
 .link-to_logpage:hover {
-    background-color: rgb(8, 56, 8);
+    background-color: rgb(89, 54, 185);
   }
 
 .link-to_signpage:hover {
-    background-color: rgb(8, 56, 8);
+    background-color: rgb(89, 54, 185);
   }
 
 

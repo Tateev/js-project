@@ -1,6 +1,13 @@
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: black;
+  position: relative;
+}
+
 .form-box {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     max-width: 600px;
     position: absolute;
     background: #dab3b3;
@@ -12,10 +19,15 @@
   }
   
   .input-field {
-    background: #eaeaea;
     margin: 15px 0; 
-    border-radius: 3px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
+    background-position: center;
   }
 
+  .continue{
+    background-color: rgb(131, 96, 226);
+    padding: 11px;
+    border-radius: 1em;
+  }
