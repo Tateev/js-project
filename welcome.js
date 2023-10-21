@@ -15,8 +15,16 @@ logbtn.forEach(el =>{
   })
 })
 
-let logbttn = document.getElementById('logbttn');
-let signbttn = document.getElementById('signbttn');
+let logbttn = document.getElementById("log-bttn");
+let wrapper = document.getElementById("wrapper");
+  logbttn.addEventListener('click', function(){
+    wrapper.innerHTML = 'container2';
+  })
+
+
+
+
+
 
 
 
